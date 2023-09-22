@@ -27,6 +27,6 @@
 
 ## Credits
 
-- Bloodborn theme art by [Your Name]([link-to-your-profile](https://github.com/tinyboone))
-- Background image by [Another Artist]([link-to-their-profile](https://github.com/tinyboone)https://github.com/tinyboone)
+- Bloodborn theme art by (https://github.com/tinyboone))
+- Background image by (https://github.com/tinyboone)
 
