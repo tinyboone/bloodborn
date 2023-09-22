@@ -1,0 +1,78 @@
+// ==UserScript==
+// @name         Blood Born V2 Discord Theme
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Apply the Blood Born V2 theme to Discord
+// @author       Your Name
+// @match        https://discord.com/*
+// @grant        GM_addStyle
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Define the entire "Blood Born V2" CSS theme code
+    const customCSS = `
+        /**
+         * @name Blood Born V2
+         * @description A custom Discord theme with a dark and edgy design.
+         * @version 2.0.0
+         * @author Your Name
+         */
+
+        /* Import necessary styles */
+        @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+        @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+        /* Define custom theme variables */
+        :root {
+            --background-image: url('https://i.ibb.co/G5YP2T5/blood-born-v2.png');
+            --background-image-blur: 5px;
+            --background-image-size: cover;
+            --background-image-position: center;
+
+            --popout-image: url('https://i.ibb.co/LJg9MYt/blood-born-logo.png');
+            --popout-image-blur: 6px;
+            --popout-image-size: cover;
+            --popout-image-position: center;
+
+            --overlay-image: var(--background-image);
+            --overlay-image-blur: 5px;
+            --overlay-image-size: cover;
+            --overlay-image-position: center;
+
+            --home-button-image: url('https://i.ibb.co/LJg9MYt/blood-born-logo.png');
+            --home-button-size: 100%;
+            --home-button-position: center;
+
+            --serverlist-brightness: 0.72;
+            --left-brightness: 0.8;
+            --middle-brightness: 0.6;
+            --right-brightness: 0;
+            --overlay-brightness: 0.75;
+
+            --gradient-primary: 255,0,0; /* Red gradient color */
+            --gradient-secondary: 0,0,0; /* Black secondary gradient color */
+            --link-colour: #F45100; /* Orange link color */
+            --scrollbar-colour: rgba(255,255,255,0.05); /* White scrollbar with transparency */
+
+            --gradient-direction: 320deg;
+
+            --tint-colour: 0,0,0; /* Black tint color */
+            --tint-brightness: 0;
+
+            --font: 'gg sans'; /* Custom font */
+
+            --window-padding: 20px;
+            --window-roundness: 10px;
+
+            --update-notice-1: none;
+        }
+
+        /* Any custom CSS below here */
+        /* Add more styles as needed */
+    `;
+
+    // Inject the custom CSS into the page
+    GM_addStyle(customCSS);
+})();
