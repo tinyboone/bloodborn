@@ -1,0 +1,30 @@
+# config.yml
+
+site:
+  title: Bloodborn Discord Theme
+  description: A custom Discord theme inspired by Bloodborne with unique art and backgrounds.
+  author: TinyBoone
+  year: 2023
+
+background:
+  image: bloodborne_background.jpg
+  position: center center
+  size: cover
+
+sections:
+  - title: Features
+    content:
+      - Unique Bloodborne-inspired design
+      - Custom art and backgrounds
+      - Highly customizable
+
+downloads:
+  - platform: Tampermonkey
+    link: link-to-tampermonkey-script
+  - platform: Vencord
+    link: link-to-vencord-theme
+  - platform: Better Discord
+    link: link-to-better-discord-css
+
+footer:
+  copyright: "&copy; {{ site.year }} Bloodborn Theme by {{ site.author }}"
