@@ -1,8 +1,11 @@
 # TinyBoone's Discord Theme
 
 A custom Discord theme by TinyBoone.
+web ver
+![image](https://github.com/tinyboone/bloodborn/assets/139655264/0d703e92-1801-48b5-a60e-7b4461b83ef5)
+pc ver 
+![image](https://github.com/tinyboone/bloodborn/assets/139655264/c23f4512-6cfd-4c5f-bde8-2a2696280fdb)
 
-![Preview](https://example.com/preview.gif)
 Caption: Theme preview.
 
 ## Installation
