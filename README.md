@@ -2,13 +2,8 @@
 ## Table of Contents
 
 - [Screenshots](#screenshots)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
 - [Contributing](#contributing)
-- [License](#license)
 - [Credits](#credits)
-- [Additional Information](#additional-information)
 
 ## Screenshots
 
