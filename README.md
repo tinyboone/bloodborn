@@ -2,7 +2,7 @@
 ## Table of Contents
 
 - [Screenshots](#screenshots)
-- [Contributing](https://discord.gg/cX2u7KK9eB))
+- [Contributing] >>https://discord.gg/cX2u7KK9eB<<
 - [Credits](#credits)
 
 ## Screenshots
