@@ -1,0 +1,45 @@
+/**
+ * @name Blood Born
+ * @version 2.0.1
+ * @description A red-themed Discord theme with adjustable blur and brightness. Requires a dark theme.
+ * @invite https://discord.gg/cX2u7KK9eB
+
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ */
+
+/* Import necessary styles */
+@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
+/* Define the root variables for the red theme */
+:root {
+    --background-image: url('https://i.ibb.co/J5vVTBr/blood-born.png');
+    --background-image-blur: 5px;
+    --background-image-size: cover;
+    --background-image-position: center;
+    --popout-modal-image: var(--background-image);
+    --popout-modal-blur: 5px;
+    --popout-modal-size: cover;
+    --popout-modal-position: center;
+    --home-button-image: url('https://i.ibb.co/LJg9MYt/blood-born-logo.png');
+    --home-button-size: cover;
+    --home-button-position: center;
+    --serverlist-brightness: 0.8;
+    --left-brightness: 0.8;
+    --middle-brightness: 0.6;
+    --right-brightness: 0;
+    --popout-modal-brightness: 0.75;
+    --gradient-primary: 255,0,0; /* Red color */
+    --gradient-secondary: 255,0,0; /* Red color */
+    --gradient-direction: 320deg;
+    --tint-colour: 255,0,0; /* Red color */
+    --tint-brightness: 0;
+    --window-padding: 20px;
+    --window-roundness: 10px;
+    --scrollbar-colour: rgba(255,0,0,0.05); /* Red color with transparency */
+    --link-colour: #ff0000; /* Red color (#ff0000) */
+
+    --font: 'Whitney';
+    --update-notice-1: none;
+}
