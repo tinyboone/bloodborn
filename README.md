@@ -1,27 +1,43 @@
-# Bloodborn Discord Theme
-## Table of Contents
+# TinyBoone's Discord Theme
 
-- [Screenshots](#screenshots)
-- [Contributing] >>https://discord.gg/cX2u7KK9eB<<
-- [Credits](#credits)
+A custom Discord theme by TinyBoone.
 
-## Screenshots
+![Preview](https://example.com/preview.gif)
+Caption: Theme preview.
 
-![Bloodborn Logo](https://github.com/tinyboone/bloodborn/assets/139655264/469246c3-bc9d-44ef-8831-b612ae831f76)
+## Installation
 
+### For Tampermonkey:
 
-![Background Image](https://github.com/tinyboone/bloodborn/assets/139655264/5ec533d4-dd92-40a7-8396-0e27e9d3cfaa)
+1. Install the Tampermonkey browser extension.
+2. Create a new script.
+3. Copy and paste the theme script from [here](https://github.com/tinyboone/bloodborn/blob/main/bloodborn%20v2%20web%20ver).
 
+### For Vencord:
 
-![Web Version Icon](https://github.com/tinyboone/bloodborn/assets/139655264/f898dc86-c86d-46c7-a1ac-8bd7b81aa912)
+1. Download the Vencord theme file from [here](https://github.com/tinyboone/bloodborn/blob/main/Blood%20Born%20V2.css).
+2. Open Vencord.
+3. Go to Settings > Themes > Import Theme.
+4. Select the downloaded theme file.
 
-## Usage
+### For Better Discord:
 
-- After applying the theme, you can further customize it by editing the CSS code to suit your preferences.
-- If you encounter any issues or have suggestions for improvements, please feel free to [open an issue]([link-to-issue-tracker](https://discord.gg/cX2u7KK9eB)) or [contribute]([#contributing](https://discord.gg/cX2u7KK9eB)).
+1. Install Better Discord.
+2. Copy and paste the CSS code from [here](https://github.com/tinyboone/bloodborn/blob/main/Blood%20Born%20V2.css) into the Custom CSS option in Better Discord's settings.
+
+## Customization
+
+You can customize this theme by modifying the CSS code. Refer to the [theme file](https://github.com/tinyboone/bloodborn/blob/main/Blood%20Born%20V2.css) for details.
+
+## License
+
+This project is licensed under the [MIT License](link-to-license-file).
 
 ## Credits
 
-- Bloodborn theme art by (https://github.com/tinyboone))
-- Background image by (https://github.com/tinyboone)
+- Art and theme by TinyBoone.
 
+## Additional Information
+
+- [Link to Discord Theme Forum Thread](link-to-forum-thread)
+- [GitHub Repository](https://github.com/tinyboone/bloodborn)
